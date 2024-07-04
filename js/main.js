@@ -13,8 +13,9 @@ alert(`A subtração dos número é: ${numberOne - numberTwo}`);
 alert(`A multiplicação dos dois número é: ${numberOne * numberTwo}`);
 alert(`A divisão dos dois número é: ${numberOne / numberTwo}`);
 alert(`O resto da divisão dos dois número é: ${numberOne % numberTwo}`);
-alert(parInpar(add));
-alert(checkingNumbers(numberOne, numberTwo))
+
+parInpar(add);
+checkingNumbers(numberOne, numberTwo)
 
 function parInpar(add) {
     if(add % 2 == 0){
@@ -23,6 +24,7 @@ function parInpar(add) {
         alert("impar");
     }
 }
+
 function checkingNumbers(numberOne, numberTwo) {
     if(numberOne == numberTwo){
         alert("iguais");
